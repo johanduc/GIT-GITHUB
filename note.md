@@ -11,6 +11,8 @@ III, Các từ khóa trong GITHUB
 - Repository (Thư mục dự án // Kho)
 - Branch (Cành): mặc định là main hoặc master
 - Conflict (xung đột)
+- Local
+- Remote
 
 # Commmands
 
@@ -41,3 +43,17 @@ III, Các từ khóa trong GITHUB
 -git merge {branch}: gộp chung lại branch B vào branch A (thực hiện lệnh trên branch A)
 
 -git branch -d {branch name}: xóa đi một branch
+
+IV, Kết hợp GIT và GITHUB
+- Đẩy dữ liệu dự án lên GITHUB, là ta đẩy các dữ liệu từ local lên remote
+- Local: tất cả các dữ liệu trên máy tính của chúng ta (code, hình ảnh, video,...)
+
+# Commands:
+-git push {link REMOTE repo} {branch name}: Đẩy local repository lên remote repository trên GITHUB
+
+-git remote add origin {link REMOTE repo}: tạo đường hướng dẫn tên là origin ( cách sử dụng alios)
+
+-Sau khi đã tạo được alios, dùng lệnh sau để push dự liệu lên remote repository:
+git push {alios} {branch name}
+
+-Lấy một remote repo về local.
