@@ -10,6 +10,7 @@ II, GITHUB
 III, Các từ khóa trong GITHUB
 - Repository (Thư mục dự án // Kho)
 - Branch (Cành): mặc định là main hoặc master
+- Conflict (xung đột)
 
 # Commmands
 
@@ -36,3 +37,7 @@ III, Các từ khóa trong GITHUB
 -git branch: kiểm tra xem đang ở cành nào.
 
 -git checkout -b {branch}: tạo branch mới
+
+-git merge {branch}: gộp chung lại branch B vào branch A (thực hiện lệnh trên branch A)
+
+-git branch -d {branch name}: xóa đi một branch
