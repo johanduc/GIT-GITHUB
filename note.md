@@ -56,4 +56,14 @@ IV, Kết hợp GIT và GITHUB
 -Sau khi đã tạo được alios, dùng lệnh sau để push dự liệu lên remote repository:
 git push {alios} {branch name}
 
--Lấy một remote repo về local.
+-Lấy một remote repo về local:
+1.Mở cmd
+2.Gõ: cd {đường dẫn folder chứ dự án}
+3.Gõ: git clone {Đường dẫn GITHUB}
+4.Gõ: cd {tên thư mục}
+5.Gõ: code . (để mở dự án lên)
+-> Nếu dự án được kéo về kiểu này thì ko cần điền alios khi push dự án lên remote.
+Chỉ cần gõ: git push là đủ.
+
+-Trường hợp tạo branch ở local, thì làm cách nào để đẩy branch này lên remote repo?
+git push -u {origin} {branch name}
